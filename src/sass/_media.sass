@@ -1,0 +1,297 @@
+/** Hover **/
+@media ( min-width: 993px )
+  .header
+    &-navigation
+      &_item
+        &:hover
+          border-bottom: 1.5px solid $main-color
+          cursor: pointer
+  .button
+    &:hover
+      background-color: darken($main-color, 10%)
+      cursor: pointer
+  .button-o
+    &:hover
+      background-color: lighten($main-color, 40%)
+      cursor: pointer  
+  
+/** Media **/
+@media ( max-width: 1190px )
+  .help
+    &-block
+      font-size: 2rem
+      padding: 5rem 2rem 5rem 5rem
+
+@media ( max-width: 1010px )
+  .help
+    &-block
+      width: 50%
+
+@media ( max-width: 992px )
+  section
+    padding: 10% 0
+
+  .main
+    &-offer
+      margin: 0
+    &-img
+      width: 40%
+
+  .about
+    padding-bottom: 40%
+    &-qualification
+      &__sertificate
+        width: 50%
+      &__description
+        padding: 6% 3% 2.5% 6%
+        bottom: -50%
+        p
+          &:first-child
+            text-align: center
+
+  .algorithm
+    &-wrapper
+      justify-content: space-between
+    &-block
+      flex: 0 1 48%
+    &__number
+      margin-right: 2rem
+    &-decor-line
+      margin-top: 10%
+
+  .contacts
+    padding-bottom: 0
+    &-wrapper
+      flex-direction: column
+      align-items: center
+    &-block
+      width: 450px
+    &-map
+      width: 100%
+      height: 400px
+      margin-top: 4rem
+
+@media ( max-width: 912px )
+  .help
+    &-wrapper
+      flex-direction: column
+      align-items: center
+    &-block
+      width: 460px
+
+  .about
+    &-qualification
+      &__description
+        bottom: -60%
+
+  .good
+    &-wrapper
+      justify-content: center
+    &-img
+      display: none
+    &-description
+      width: 100%
+      display: flex
+      flex-direction: column
+      align-items: center
+
+@media ( max-width: 850px )
+  .about
+    padding-bottom: 12%
+    &-qualification
+      &__sertificate
+        position: static
+        width: 80%
+        margin: auto
+      &__description
+        position: static
+        width: 100%
+        padding: 10% 6% 2.5% 6%
+
+@media ( max-width: 800px )
+  .main
+    text-align: center
+    &-wrap
+      flex-direction: column
+      align-items: center
+    &-btn
+      margin-bottom: 10%
+    &-img
+      margin: auto
+
+  .header
+    &-navigation
+      flex-basis: 100%
+      &_item
+        display: inline-block
+        margin-top: 2rem
+
+  .about
+    &-history
+      &-description
+        width: 100%
+      &__img
+        display: none
+    &-qualification
+      &__sertificate
+        width: 100%
+
+  .algorithm
+    &-wrapper
+      flex-direction: column
+    &-block
+      width: 450px
+      margin: 5% auto
+
+  .good
+    &-description
+      margin-top: 4rem
+      &__list
+        margin-top: 3rem
+      &__item
+        margin-top: 2rem
+
+  .question
+    &-wrapper
+      flex-direction: column
+    &-form
+      margin-top: 3rem
+
+@media ( max-width: 575px )
+  section
+    padding: 15% 0
+
+  .main
+    &-offer
+      &_name
+        font-size: 2.5rem
+      &_title
+        font-size: 3.5rem
+    &-btn
+      font-size: 1.2rem
+    &-img
+      display: none
+
+  .activity
+    &-block
+      margin-top: 12%
+
+  .about
+    &-history
+      &__text
+        padding: 2rem 0 0.2rem 2rem
+    &-qualification
+      &__sertificate
+        padding: 5px
+
+  .algorithm
+    &-decor-line
+      margin-top: 15%
+    &__number
+      img
+        height: 45px
+
+  .feedback
+    &-item
+      padding: 2rem 0 3rem 2rem
+      &__text
+        padding: 0
+
+@media ( max-width: 510px )
+  .good
+    &-description
+      &__title
+        font-size: 2rem
+        text-align: center
+        line-height: 1.5
+      &__item
+        font-size: 1.8rem
+        &::before
+          height: 27px
+          flex: 0 0 25px
+          background-size: cover
+
+@media ( max-width: 470px )
+  .help
+    &-block
+      width: 100%
+      padding: 5% 2% 5% 5%
+      text-align: center
+      font-size: 1.8rem
+    &-item
+      list-style: none
+      padding: 0
+
+  .about
+    &-history
+      &-btn
+        padding: 20px 0
+        width: 90%
+
+  .algorithm
+    &-block
+      width: 100%
+    &__number
+      margin-right: 1rem
+
+  .blog
+    &-article
+      padding: 30px 0
+      &__img
+        margin-bottom: 4rem
+
+  .feedback
+    &-wrapper
+      flex-direction: column
+      align-items: center
+    &-item
+      &__name
+        margin-top: 3rem
+
+  .contacts
+    &-block
+      width: 100%
+      padding-left: 5%
+      min-height: 350px
+    &-plea
+      font-size: 2rem
+    &-map
+      height: 350px
+
+  .popup
+    width: 100%
+    &-form
+      form
+        width: 100%
+
+@media ( max-width: 410px )
+  .question
+    &-wrapper
+      align-items: stretch
+  .form
+    width: 100%
+
+  .algorithm
+    &__number
+      min-width: 30px
+      img
+        height: 35px
+
+@media ( max-width: 350px )
+  .algorithm
+    &-btn
+      padding: 2rem
+
+@media ( max-width: 333px )
+  .help
+    &-block
+      &_right
+        padding: 5% 0 5% 0
+
+  .popup
+    &-title
+      font-size: 1.8rem
+    &-form
+      &__input
+        font-size: 1.4rem
+        padding: 1.5rem 0 1rem 2rem
